@@ -1,0 +1,20 @@
+{
+  "name": "@game/client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vite": "^3.0.8"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "phaser-matter-collision-plugin": "^1.0.0",
+    "socket.io-client": "^4.5.1"
+  }
+}
